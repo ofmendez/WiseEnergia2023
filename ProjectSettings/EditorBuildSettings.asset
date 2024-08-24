@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/aVideo/Videos.unity
     guid: f270a0af02dfed24da431beaa6d826c0
   - enabled: 0
     path: Assets/aCables/Cables.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/aVideo2024/Videos2024.unity
+    guid: 9b5c37ceb82ab334c9c2cde90da1d04f
   m_configObjects: {}

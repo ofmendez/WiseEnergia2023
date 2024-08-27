@@ -14,10 +14,15 @@ public class ProgressBar : MonoBehaviour {
 	IEnumerator Countdown(Action callback) {
 		while (GetComponent<Image>().fillAmount > 0) {
 			GetComponent<Image>().fillAmount -= 0.01f;
-			// yield return new WaitForSecondsRealtime(0.05f);
-			yield return new WaitForSecondsRealtime(0.01f);
+			yield return new WaitForSecondsRealtime(0.10f);
+			// yield return new WaitForSecondsRealtime(0.01f);
 		}
 		callback();
 		counting = false;
+	}
+	private void OnDisable() {
+		StopAllCoroutines();
+		counting = false;
+		GetComponent<Image>().fillAmount = 1;
 	}
 }

@@ -296,7 +296,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089931933}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 08d519f6ba471c54aaf0e9a701fe7ea1, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 0dfc1c42e54a95f4dab5d8bd54d6c97f, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -310,14 +310,12 @@ VideoPlayer:
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -337,17 +335,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 32900000, guid: 720506de71f8c8041b97205262ae6fd4, type: 3}
-  - {fileID: 32900000, guid: 4f118f31313b75e4f94fb04d815911ac, type: 3}
-  - {fileID: 32900000, guid: 35ecd0ac239bf4c40ae35958e21b11ab, type: 3}
-  - {fileID: 32900000, guid: b2b7f2f0346e63543ac2db3619e22c7e, type: 3}
-  - {fileID: 32900000, guid: b1bef1527b2687e4c8644fb71bf8780b, type: 3}
-  - {fileID: 32900000, guid: 95f0f083e44d6114f82ef8f8ecf4cd0c, type: 3}
-  - {fileID: 32900000, guid: 75ea4d952fde130448d653e647acd2ce, type: 3}
-  - {fileID: 32900000, guid: 8421e9cb7ab175e4180cadc8aed20cb4, type: 3}
-  - {fileID: 32900000, guid: a2d30b13b7f0fcf4789e55030692b900, type: 3}
-  - {fileID: 32900000, guid: 687e01c794f61c642b0feda8bb97ab91, type: 3}
-  - {fileID: 32900000, guid: a87172f09422b9247a2e9f48d27beae4, type: 3}
+  - {fileID: 32900000, guid: a557836206e843d4fb8eb6fb3f099d45, type: 3}
+  - {fileID: 32900000, guid: e4c5c9f403c9c3f468bd4a55742b1614, type: 3}
+  - {fileID: 32900000, guid: 47509637952c89848a24360d3c6f9b73, type: 3}
+  - {fileID: 32900000, guid: cacdb68e54bb79c48a8fe2b61b274f0f, type: 3}
+  - {fileID: 32900000, guid: 921c1baae97c4104e88c8669dd6a6b7d, type: 3}
+  - {fileID: 32900000, guid: d4e6ea5ea64755a4da5bb3623fd004da, type: 3}
+  - {fileID: 32900000, guid: 0a971fafa8ce01944b6e99ad0767cd4d, type: 3}
+  - {fileID: 32900000, guid: a7e6dcd3b7d406d47814c2c2021e4b67, type: 3}
+  - {fileID: 32900000, guid: 67dc13a9e29cb9f42941d22e08f665f8, type: 3}
+  - {fileID: 32900000, guid: 176eb44af3235c741b2b9c33ff15a690, type: 3}
+  - {fileID: 32900000, guid: 0dfc1c42e54a95f4dab5d8bd54d6c97f, type: 3}
 --- !u!1 &1621134761
 GameObject:
   m_ObjectHideFlags: 0

@@ -31,7 +31,7 @@ public class Main : MonoBehaviour {
 			context.Button2();
 			print("D key was pressed");
 		}
-		if (Input.GetKeyDown(KeyCode.B)) {
+		if (Input.GetKeyDown(KeyCode.Escape)) {
 			context.TransitionTo(new VideoIntro());
 		}
 	}

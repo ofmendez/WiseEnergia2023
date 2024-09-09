@@ -133,7 +133,7 @@ public class MainParagliding : MonoBehaviour {
 	}
 
 	public void ReturnRing() {
-		float yPosition = Random.Range(-1.6f, 3.1f);
+		float yPosition = Random.Range(-1.26f, 3.25f);
 		ringObject.transform.position = new Vector3(initRingPosition.x, yPosition, initRingPosition.z);
 	}
 	public void Reset() {

@@ -13,7 +13,7 @@ public class VerticalMove : MonoBehaviour {
 		if (Input.GetKey(upKey) && transform.position.y < 3.5) {
 			transform.position = new Vector3(transform.position.x, transform.position.y + speed, transform.position.z);
 		}
-		if (Input.GetKey(downKey) && transform.position.y > -3.5) {
+		if (Input.GetKey(downKey) && transform.position.y > -1.1) {
 			transform.position = new Vector3(transform.position.x, transform.position.y - speed, transform.position.z);
 		}
 	

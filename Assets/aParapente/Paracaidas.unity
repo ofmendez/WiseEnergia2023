@@ -412,11 +412,11 @@ GameObject:
   - component: {fileID: 401642624}
   - component: {fileID: 401642626}
   - component: {fileID: 401642625}
-  - component: {fileID: 401642627}
   - component: {fileID: 401642628}
   - component: {fileID: 401642629}
+  - component: {fileID: 401642630}
   m_Layer: 5
-  m_Name: P2 (D-G)
+  m_Name: P2 (G-B)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -438,7 +438,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 332, y: 539.47}
+  m_AnchoredPosition: {x: 332, y: 469.49}
   m_SizeDelta: {x: 225.81, y: 241.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401642625
@@ -479,7 +479,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401642623}
   m_CullTransparentMesh: 1
---- !u!70 &401642627
+--- !u!114 &401642628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401642623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 932bbcd631868f74d9ecdc2ecc3e6df9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upKey: 103
+  downKey: 98
+  speed: 0.008
+--- !u!114 &401642629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401642623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c463302f7f95043b11cb2be5570a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainParagliding: {fileID: 2124371130}
+  myId: 2
+--- !u!70 &401642630
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -511,38 +540,9 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 28.79176, y: -0.39675665}
-  m_Size: {x: 51.640602, y: 132.77992}
+  m_Offset: {x: 28.79176, y: 2.6696198}
+  m_Size: {x: 51.640602, y: 117.212204}
   m_Direction: 0
---- !u!114 &401642628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401642623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 932bbcd631868f74d9ecdc2ecc3e6df9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  upKey: 100
-  downKey: 103
-  speed: 0.006
---- !u!114 &401642629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401642623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14c463302f7f95043b11cb2be5570a9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainParagliding: {fileID: 2124371130}
-  myId: 2
 --- !u!1 &442392507
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,7 +555,7 @@ GameObject:
   - component: {fileID: 442392510}
   - component: {fileID: 442392509}
   m_Layer: 5
-  m_Name: BotonesInicio(E-D)
+  m_Name: BotonesInicio(R-D)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2210,7 +2210,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2196, y: 806.47}
+  m_AnchoredPosition: {x: 2265, y: 639}
   m_SizeDelta: {x: 238.25, y: 435.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!50 &1216985586
@@ -2272,8 +2272,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 39.66583, y: -1.3747373}
-  m_Size: {x: 66.70672, y: 69.44548}
+  m_Offset: {x: 46.10112, y: -2.7441187}
+  m_Size: {x: 53.836132, y: 66.70672}
   m_Direction: 0
 --- !u!114 &1216985588
 MonoBehaviour:
@@ -2357,7 +2357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -814, y: -413}
+  m_AnchoredPosition: {x: -811, y: -490}
   m_SizeDelta: {x: 292.8, y: 392.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272707936
@@ -2413,7 +2413,7 @@ GameObject:
   - component: {fileID: 1324662971}
   - component: {fileID: 1324662972}
   m_Layer: 5
-  m_Name: P1 (B-R)
+  m_Name: P1 (R-D)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2435,7 +2435,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 332, y: 780.48}
+  m_AnchoredPosition: {x: 332, y: 806.47}
   m_SizeDelta: {x: 225.81, y: 241.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1324662968
@@ -2508,8 +2508,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 28.79176, y: -0.39675665}
-  m_Size: {x: 51.640602, y: 132.77992}
+  m_Offset: {x: 28.79176, y: 2.6696198}
+  m_Size: {x: 51.640602, y: 117.212204}
   m_Direction: 0
 --- !u!114 &1324662971
 MonoBehaviour:
@@ -2523,9 +2523,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932bbcd631868f74d9ecdc2ecc3e6df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upKey: 98
-  downKey: 114
-  speed: 0.006
+  upKey: 114
+  downKey: 100
+  speed: 0.008
 --- !u!114 &1324662972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3340,7 +3340,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 812, y: -413}
+  m_AnchoredPosition: {x: 815, y: -490}
   m_SizeDelta: {x: 292.8, y: 392.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848020637
@@ -3544,7 +3544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f97c24176e481447a1758d641291726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oneP: 101
+  oneP: 114
   twoP: 100
   particles: {fileID: 510340104}
   scoreObj1: {fileID: 1167571607}
@@ -3563,8 +3563,8 @@ MonoBehaviour:
   backgrounds:
   - {fileID: 21300000, guid: 407a72f81a2654344b369e75e0d09bf9, type: 3}
   - {fileID: 21300000, guid: 407a72f81a2654344b369e75e0d09bf9, type: 3}
-  - {fileID: 21300000, guid: b203a96474727bc44962c1cda3209e2e, type: 3}
   - {fileID: 21300000, guid: afbffe1323342af40b8b64f281ac763f, type: 3}
+  - {fileID: 21300000, guid: b203a96474727bc44962c1cda3209e2e, type: 3}
   - {fileID: 21300000, guid: af1ae316c0d8d16458185f8be2e8ac54, type: 3}
   - {fileID: 21300000, guid: d53d10521f4b246458e73271922e3455, type: 3}
   winnerText: {fileID: 1722522666}
